@@ -1,0 +1,60 @@
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: #333;
+	font-family: sans-serif;
+}
+
+.flex-item {
+	flex-grow: 1;
+	margin: 20px;
+	padding: 0 20px;
+	max-width: 300px;
+	border: 5px solid #a78b38;
+}
+
+.flex-item:hover {
+	border-color: #ff4040;
+	box-shadow: 0px 0px 30px #e17e7e ;
+}
+
+.flex-item:focus {
+	border-color: #ff4040;
+	box-shadow: 0px 0px 30px #e17e7e ;
+}
+
+.llave-img {
+	width: 300px;	
+}
+
+h3 {
+	color : #666
+}
+
+p b {
+	color : green;
+}
+
+h2, h3{
+	margin: 0;
+}
+
+form {
+	text-align: center;
+	padding: 50px;
+}
+
+input[type="submit"]{
+	background: #a78b38;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	padding: 12px 28px;
+	letter-spacing: 1px;
+}
+
+.send-buton{
+
+}
