@@ -1,0 +1,13 @@
+{
+    "nombre": "Leonardo Villanueva Medina",
+    "titulo": "Ing. En Computacion",
+    "universidad": "UAEM",
+    "centroUniversitario": "Zumpango",
+    "numCuenta": 1870422,
+    "numSemestres": 9,
+    "lineasAcentuacion": [
+        "Interaccion Hombre-Maquina",
+        "Redes"
+    ],
+    "esPublica": "true"
+}
