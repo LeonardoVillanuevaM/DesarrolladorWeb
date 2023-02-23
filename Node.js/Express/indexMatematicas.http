@@ -1,0 +1,37 @@
+POST http://localhost:3000/api/cursos/matematicas HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 4,
+    "titulo": "Algebre Intermedio",
+    "tema": "Algebra",
+    "vistas": 60000,
+    "nivel": "intermedio"
+}
+
+###
+
+PUT http://localhost:3000/api/cursos/matematicas/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "titulo": "Aprende Calculo Intermedio",
+    "tema": "Calculo",
+    "vistas": 1000,
+    "nivel": "basico"
+}
+
+###
+
+PATCH http://localhost:3000/api/cursos/matematicas/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Aprende Algebra con proyectos basicos",
+    "vistas": 13000
+}
+
+###
+
+DELETE http://localhost:3000/api/cursos/matematicas/2 HTTP/1.1

@@ -22,9 +22,7 @@ app.get('/api/cursos',(req,res)=>{
     res.send(JSON.stringify(infoCursos));
 });
 
-//Programacion
 
-//Matematicas
 
 PUERTO = process.env.PORT || 3000;
 app.listen(PUERTO, ()=>{
