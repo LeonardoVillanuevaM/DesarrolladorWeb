@@ -1,0 +1,26 @@
+body{
+	color:#222;
+	font-family: sans-serif;
+}
+
+.contenedor-1 {
+	padding: 50px;
+	background: red;
+}
+
+.contenedor-2 {
+	padding: 40px;
+	background: orange;
+}
+
+.contenedor-3 {
+	padding: 30px;
+	background: blue;
+}
+
+.input-prueba {
+	border: 5px solid red;	
+	border-radius: 10px;
+	padding: 6px;
+	color: black;
+}
