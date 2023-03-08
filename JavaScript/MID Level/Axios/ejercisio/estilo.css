@@ -1,0 +1,20 @@
+body{
+	color: #fff;
+	font-family: sans-serif;
+	background: #065a59;
+}
+
+#getInfo{
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 20px;
+	background: #600000;
+	color: #fff;
+}
+
+.resultado{
+	background: #000;
+	color: #fff;
+	font-size: 19px;
+	padding: 20px;
+}
